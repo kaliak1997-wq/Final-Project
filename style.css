@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   padding: 0;
@@ -8,6 +7,11 @@
   font-family: "Roboto", sans-serif;
   color: #243e63;
 }
+
+p [
+  font-size: 18px;
+  line-height: 1.5;
+]
 
 nav {
   height: 80px;
@@ -59,7 +63,7 @@ li {
 }
 
 .nav__link:hover {
- text-decoration: underline;
+  text-decoration: underline;
 }
 
 .nav__link--primary {
@@ -82,13 +86,12 @@ li {
   background-color: rgb(225, 255, 255);
 }
 
-header [
-  height: calc(100vh - 80px);
-]
-
-.header__container {
+header [height: calc(100vh - 80px);] .header__container {
   width: 100%;
   max-width: 720px;
   margin: 0 auto;
+}
 
+.header__description--para {
+  margin: 32px 0;
 }
