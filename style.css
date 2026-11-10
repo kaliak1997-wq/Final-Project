@@ -1056,17 +1056,24 @@ START
   color: #f7fafc;
   font-size: 30px;
   font-weight: 700;
-  font-height: 1.5;
+  line-height: 1.5;
   z-index: 2;
 }
 
-.start__title, .star__buttons {
+.start__title, .start__buttons {
   width: 50%;
 }
 
 .start__buttons {
   display: flex;
   justify-content: flex-end;
+}
+
+.start__button {
+  padding: 20px 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  z-index: 2;
 }
 
 .start__button:nth-child(1) {
@@ -1334,7 +1341,6 @@ footer {
         text-align: center;
         width: 100%;
         max-width: 512px;
-        font-size: 36px;
     }
 
     .start__buttons {
@@ -1565,6 +1571,14 @@ footer {
 
   .start__button:nth-child(2) {
     margin-top: 16px;
+  }
+
+  .start__title {
+  font-size: 24px;
+  }
+
+  .start__buttons {
+  flex-direction: column;
   }
 
 
