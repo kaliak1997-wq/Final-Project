@@ -1480,6 +1480,7 @@ footer {
   .values__list {
     margin-left: auto;
     margin-right: auto;
+    flex-direction: column;
   }
 
   .value {
@@ -1490,6 +1491,85 @@ footer {
   .value:nth-of-type(1) {
     margin-right: 0px;
   }
+
+  #pricing .row {
+    margin-top: 40px;
+  }
+
+  #features .section__title, #pricing .section__title {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .plan__price {
+    font-size: 36px;
+  }
+
+  .plan__bottom {
+    padding: 2rem 1rem;
+  }
+
+  .testimonials__description {
+    padding-left: 0;
+  }
+
+  testimonial__para {
+    margin-bottom: 32px;
+  }
+    
+  .testimonial__bottom {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4px;
+  }
+
+  .testimonial__profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial__img {
+    height: 64px;
+    width: 64px;
+  }
+
+  .testimonial__details {
+    margin-left: 0;
+    margin-top: 8px;
+  }       
+
+  .testimonial__buttons {
+    margin-top: 32px;
+  }
+
+  .start__container {
+    padding: 80px 0;
+  }
+
+  .start__container {
+    padding: 80px 0;
+  }
+  
+  .start__container {
+    padding: 80px 0;
+  }
+
+  .start__button:nth-child(1) {
+    margin-right: 0;
+  }
+
+  .start__button {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  .start__button:nth-child(2) {
+    margin-top: 16px;
+  }
+
+
+
+
 
   .plans {
     flex-direction: column;
