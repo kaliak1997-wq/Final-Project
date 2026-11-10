@@ -1224,8 +1224,8 @@ footer {
   width: 16px;
 }
 
-
 /* SMALL LAPTOP */
+
 @media (max-width: 1024px) {
     .nav__links {
         display: none;
@@ -1369,52 +1369,19 @@ footer {
     }
 }
 
-/* SMALL DESKTOP, LARGE DESKTOP */
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 
-@media (max-width: 1280px) {
-    h1 {
-        font-size: 36px;
-        color: #1a202c;
-        line-height: 1.25;
-    }
+@media (max-width: 768px) {
+  .feature {
+    width: 100%;
+  }
 
-    header .row {
-        align-items: flex-end;
-    }
+  .plans {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .header__description--para {
-        font-size: 16px;
-    }
-
-    .header__customers {
-        padding-right: 64px;
-    }
-
-    .header__img--wrapper {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .steps__grid {
-        height: 5rem;
-        width: 5rem;
-        bottom: -50px;
-    }
-
-    .plan__bottom {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
-    .plan__button {
-        max-width: none;
-    }
-
-    .testimonials__img {
-        width: 40%;
-    }
-
-    .testimonials__description {
-        width: calc(100% - 40%);
-    }
+  .section__title {
+    font-size: 32px;
+  }
 }
