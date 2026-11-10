@@ -6,6 +6,8 @@
     <title>Module 2 Final Project</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="index.js"></script>
+
 
   </head>
 
@@ -25,11 +27,33 @@
             <a href="#" class="nav__link">Login</a>
              <a href="#" class="nav__link nav__link--primary">Sign up</a>
           </div>
-          <button class="btn__menu "></button>
+          
+          <button class="btn__menu" onclick="openMenu()">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="3" y1="12" x2="21" y2="12"></line>
+    <line x1="3" y1="6" x2="21" y2="6"></line>
+    <line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</button>
+
         </div>
       </nav>
-      <div class="menu"></div>
-      </div>
+      <div class="menu">
+  <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="18" y1="6" x2="6" y2="18"></line>
+      <line x1="6" y1="6" x2="18" y2="18"></line>
+    </svg>
+  </button>
+  <div class="menu__links">
+    <a href="#" class="menu__link" onclick="closeMenu()">About</a>
+    <a href="#" class="menu__link" onclick="closeMenu()">Blog</a>
+    <a href="#" class="menu__link" onclick="closeMenu()">Pricing</a>
+    <a href="#" class="menu__link" onclick="closeMenu()">Contact Us</a>
+    <a href="#" class="menu__link" onclick="closeMenu()">Login</a>
+    <a href="#" class="menu__link menu__link--primary" onclick="closeMenu()">Sign up</a>
+  </div>
+</div>
       
       <header>
         <div class="container">
