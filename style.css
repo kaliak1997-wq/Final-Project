@@ -265,7 +265,7 @@ header .row {
   opacity: 0.5;
 }
 
-.header__customer--title {
+.header__customers--title {
   margin-top: 80px;
   color: #a0aec0;
   font-size: 12px;
@@ -368,7 +368,7 @@ FEATURES
 }
 
 .feature {
-  width: calc(50%);
+  width: calc(100% / 3);
 }
 
 .feature__row {
@@ -1666,4 +1666,3 @@ footer {
 
 
   
-}
